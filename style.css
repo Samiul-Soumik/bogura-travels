@@ -414,9 +414,7 @@ hr {
   .nav-div {
     align-items: center;
   }
-  .input-types {
-    margin-left: 50px;
-  }
+
   .popular-imgg {
     width: 100%;
     padding-top: 20px;
@@ -446,5 +444,7 @@ hr {
   }
   #footerrrrr {
     padding-top: 50px;
+  }
+  .mama-input {
   }
 }
