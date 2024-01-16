@@ -1,0 +1,159 @@
+/* Fon from google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* share stayle */
+
+.main-button {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 13px 35px;
+  border-color: #ff5400;
+}
+/* header area style start */
+/* Nav area style start */
+
+.header {
+  padding: 52px 135px;
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-lii ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.nav-lii a {
+  text-decoration: none;
+}
+/* Nav area style start */
+
+/* Header banner area style start */
+.Header-benner {
+  margin-top: 50px;
+  padding: 100px 135px;
+  background-image: url(./Images/Group13.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.banner-title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.baner-dess {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.input-types {
+  display: inline-flex;
+  padding: 15px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  background: #ffffff71;
+  justify-content: center;
+}
+.iii {
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 10px;
+  border-color: bisque;
+}
+#Find {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 45px;
+  border-color: #ff5400;
+}
+/* Header banner area style start */
+
+/* header area style  End */
+
+/* main area style Start */
+/*  Popular section style Start */
+.popular-section {
+  padding: 20px 135px;
+}
+.Popular-ture {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-title {
+  color: #131318;
+
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.popular-des,
+.popular-des li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 15px;
+}
+/* main area style Start */
+
+/*rresponsive mobile  */
+@media screen and (max-width: 600px) {
+  .header,
+  .Header-benner,
+  .popular-section {
+    padding: 20px;
+  }
+  .nav-div,
+  .nav-lii ul,
+  .input-types,
+  .Popular-ture {
+    flex-direction: column;
+  }
+  .nav-lii ul {
+    text-align: center;
+  }
+  .nav-div {
+    align-items: center;
+  }
+  .input-types {
+    margin-left: 50px;
+  }
+  .popular-imgg {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
