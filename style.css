@@ -85,15 +85,19 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.mama-input {
+  display: flex;
+  justify-content: center;
+}
 .input-types {
   display: inline-flex;
   padding: 15px;
-  align-items: center;
+  justify-content: center;
   gap: 20px;
   border-radius: 8px;
   background: #ffffff71;
-  justify-content: center;
 }
+
 .iii {
   border-radius: 8px;
   background: #fff;
@@ -298,6 +302,42 @@ hr {
   width: 672px;
   height: 500px;
   flex-shrink: 0;
+}
+.imgg-text {
+  display: grid;
+  text-align: center;
+  border-radius: 16px;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+}
+.imgg-one {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-top: 5px;
+}
+.imgg-two {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+}
+
+.fill-mall {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 175px;
 }
 /* news latter End */
 /* main area style end */
